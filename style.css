@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./img/pic.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    background: lightblue;
+    height: 10vh;
+}
+
+ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+li a:hover{
+    color: white;
+}
+
+.active{
+    color: white;
+}
